@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: url('../images/rtd_busbg.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333333;
+}
+
+.title {
+  margin: 3em 0;
+}
+
+
