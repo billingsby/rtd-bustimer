@@ -6,6 +6,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bitter:700|Source+Sans+Pro:400,900' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -22,33 +23,47 @@
 <div class="container">
   <div class="row">
       <div class="col-md-12 text-center">
-      <ul class="list-unstyled list-inline">
-      <li>
-        <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Your Route
-          <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-        </div>
-      </li>
+        <ul class="list-unstyled list-inline">
+          <li>
+            <div class="dropdown">
+              
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-bus fa-2x icon"></i>Choose Your Route 
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+          </li>
 
-      <li>
-        <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Your Stop
-          <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-        </div>
-      </li>
-      </ul>
+          <li>
+            <div class="dropdown">
+            
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-stop-circle fa-2x icon"></i>Choose Your Stop
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#" value = "all">all</a></li>
+                <li><a href="#" value = "0">0</a></li>
+                <li><a href="#" value = "0">1</a></li>
+                <li><a href="#" value = "0">3</a></li>
+                <li><a href="#" value = "0">6</a></li>
+                <li><a href="#" value = "0">15</a></li>
+                <li><a href="#" value = "0">16</a></li>
+                <li><a href="#" value = "0">83L</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 graph">
+          <label><input type="checkbox"> Sort values</label>
+      </div>
+    </div>
  
 
   
@@ -60,5 +75,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>  
+  <script src="js/app.js"></script>
 </body>
 </html>

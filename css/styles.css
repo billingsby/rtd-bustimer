@@ -17,7 +17,81 @@ body {
 }
 
 .title {
+  font-weight: bold;
   margin: 3em 0;
+  font-family: 'Bitter', serif;
 }
 
+.icon {
+  margin-right: .5em;
+  margin-left: .25em;
+}
 
+.caret {
+  margin-left: 1em;
+}
+
+.graph {
+  margin-bottom: 3em;
+}
+
+label {
+  display: block;
+  span {
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+  }
+}
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+.bar[height="50"] {
+  fill: #0099F7;
+}
+.bar[height="100"] {
+  fill: #2B81CD;
+}
+.bar[height="150"] {
+  fill: #C92C37;
+}
+.bar[height="200"] {
+  fill: #536CA8;
+}
+.bar[height="250"] {
+  fill: #7F547D;
+}
+.bar[height="300"] {
+  fill: #994665;
+}
+.bar[height="350"] {
+  fill: #BD3343;
+}
+.bar[height="400"] {
+  fill: #DC2225;
+}
+.bar[height="450"] {
+  fill: #F11712;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
